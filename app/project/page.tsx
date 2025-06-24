@@ -127,7 +127,7 @@ Supervisor: spv@nextmail.com / 123456`,
       
       <section className="pt-32 px-6 md:px-20 pb-20 z-10">
         <h1 className={`${poppins.className} text-4xl md:text-5xl font-extrabold text-center text-white mb-12`}>
-          My Projects
+          My Projectss
         </h1>
 
         <h2 className="text-2xl font-bold mb-6 mt-10 text-yellow-200">🌐 Web Development</h2>
