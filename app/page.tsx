@@ -8,11 +8,9 @@ export default function Page() {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <main
-      className="min-h-screen flex flex-col items-center justify-center relative text-white bg-gradient-to-br from-gray-700 to-blue-200"
-    >
+    <main className="min-h-screen flex flex-col items-center justify-center relative text-white bg-gradient-to-br from-gray-700 to-blue-200">
       {/* Navbar */}
-      <nav className="absolute top-6 left-0 right-0 flex justify-between items-center px-8 md:px-16 z-10">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-gray-700 bg-opacity-80 backdrop-blur-md flex justify-between items-center px-8 md:px-16 py-4">
         <div className={`${poppins.className} text-2xl font-bold text-white`}>
           Frengky Lois Wongan
         </div>
@@ -30,7 +28,7 @@ export default function Page() {
             ☰
           </button>
           {isDropdownOpen && (
-            <div className="absolute top-16 right-8 bg-white bg-opacity-90 text-black rounded-md shadow-md p-4 z-50">
+            <div className="absolute top-20 right-8 bg-white bg-opacity-90 text-black rounded-md shadow-md p-4 z-50">
               <Link href="/" className="block py-2 hover:text-yellow-700">Home</Link>
               <Link href="/about-me" className="block py-2 hover:text-yellow-700">About Me</Link>
               <Link href="/project" className="block py-2 hover:text-yellow-700">Projects</Link>
@@ -41,11 +39,11 @@ export default function Page() {
       </nav>
 
       {/* Hero Section */}
-      <section className="z-10 mt-24 md:mt-0 flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-6xl px-6 md:px-16">
+      <section className="z-10 mt-32 flex flex-col-reverse md:flex-row items-center justify-between w-full max-w-6xl px-6 md:px-16">
         {/* Text Section */}
         <div className="text-left md:w-1/2 space-y-6 mt-10 md:mt-0">
           <h1 className={`${poppins.className} text-4xl md:text-5xl font-extrabold`}>
-            Hi, I&apos;m  Frengky 👋
+            Hi, I&apos;m Frengky 👋
           </h1>
           <p className="text-lg md:text-xl font-light text-gray-200">
             An Information Systems student who is passionate about technology, business, and design. Currently building something impactful and continuously learning every day.
