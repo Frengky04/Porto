@@ -52,13 +52,13 @@ Supervisor: spv@nextmail.com / 123456`,
     {
       src: Array.from({ length: 21 }, (_, i) => `/bakoelkaos/${i + 1}.png`),
       title: "BakoelKaos Webside",
-      desc: "UI/UX design for BakoelKaos mobile & web interface.",
+      desc: "UI/UX design for BakoelKaos webside interface.",
       detail: "A complete UI/UX design for BakoelKaos ordering system, featuring a modern interface from login to checkout. focused on user-friendly experience.",
     },
     {
       src: Array.from({ length: 23 }, (_, i) => `/siperemku1/${i + 1}.png`),
       title: "SIPeremku Webside",
-      desc: "UI/UX design for SIPeremku health tracking app.",
+      desc: "UI/UX design for SIPeremku webside interface.",
       detail: "SIPeremku is a web-based Point-of-Sale (POS) system designed to manage motorcycle rental services, especially for campus or community use. It offers online booking, user data verification, rental history tracking, and real-time availability management.",
     },
     {
