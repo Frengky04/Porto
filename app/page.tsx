@@ -45,7 +45,7 @@ export default function Page() {
         {/* Text Section */}
         <div className="text-left md:w-1/2 space-y-6 mt-10 md:mt-0">
           <h1 className={`${poppins.className} text-4xl md:text-5xl font-extrabold`}>
-            Hi, I'm  Frengky 👋
+            Hi, I&apos;m  Frengky 👋
           </h1>
           <p className="text-lg md:text-xl font-light text-gray-200">
             An Information Systems student who is passionate about technology, business, and design. Currently building something impactful and continuously learning every day.
