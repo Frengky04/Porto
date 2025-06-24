@@ -72,7 +72,7 @@ export default function AboutMe() {
               My work focuses on combining design thinking with technical execution to deliver intuitive interfaces and seamless user flows. 
               I pay close attention to detail, user needs, and overall usability to ensure that every solution I create meets both aesthetic and practical standards.
               <br /><br />
-              I’m always eager to learn new technologies, explore creative approaches, and collaborate on impactful digital products that solve real problems and improve people’s daily lives.
+              I&apos;m always eager to learn new technologies, explore creative approaches, and collaborate on impactful digital products that solve real problems and improve people’s daily lives.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">

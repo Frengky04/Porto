@@ -40,10 +40,10 @@ export default function Contact() {
       <section className="flex items-center justify-center px-6 md:px-20 py-32">
         <div className="bg-white bg-opacity-70 backdrop-blur-md rounded-2xl shadow-xl p-10 w-full max-w-xl text-center space-y-8">
           <h1 className={`${poppins.className} text-4xl font-bold text-blue-800`}>
-            Let's Collaborate
+            Let&apos;s Collaborate
           </h1>
           <p className="text-gray-800">
-            Feel free to reach out — whether it’s for a project, collaboration, or just to connect.
+            Feel free to reach out — whether it&apos;s for a project, collaboration, or just to connect.
           </p>
 
           <div className="space-y-6 text-left">
