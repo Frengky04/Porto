@@ -37,16 +37,16 @@ export default function Contact() {
       </nav>
 
       {/* Contact Content */}
-      <section className="flex items-center justify-center px-6 md:px-20 py-32">
-        <div className="bg-white bg-opacity-70 backdrop-blur-md rounded-2xl shadow-xl p-10 w-full max-w-xl text-center space-y-8">
-          <h1 className={`${poppins.className} text-4xl font-bold text-blue-800`}>
+      <section className="flex items-center justify-center px-4 sm:px-6 md:px-20 py-20 sm:py-32">
+        <div className="bg-white bg-opacity-70 backdrop-blur-md rounded-2xl shadow-xl p-6 sm:p-10 w-full max-w-xl text-center space-y-6 sm:space-y-8">
+          <h1 className={`${poppins.className} text-3xl sm:text-4xl font-bold text-blue-800`}>
             Let&apos;s Collaborate
           </h1>
-          <p className="text-gray-800">
+          <p className="text-gray-800 text-sm sm:text-base">
             Feel free to reach out — whether it&apos;s for a project, collaboration, or just to connect.
           </p>
 
-          <div className="space-y-6 text-left">
+          <div className="space-y-4 sm:space-y-6 text-left">
             <ContactItem icon="/email.png">
               frengky.wongan2004@gmail.com
             </ContactItem>
@@ -63,12 +63,12 @@ export default function Contact() {
   );
 }
 
-// Updated ContactItem component
+// ContactItem Component
 function ContactItem({ icon, children }: { icon: string; children: React.ReactNode }) {
   return (
     <div className="bg-white p-4 rounded-xl shadow hover:shadow-md transition hover:scale-[1.02] flex items-center gap-4">
       <Image src={icon} alt="icon" width={32} height={32} className="rounded" />
-      <span className="text-blue-900 break-words">{children}</span>
+      <span className="text-blue-900 break-words text-sm sm:text-base">{children}</span>
     </div>
   );
 }
