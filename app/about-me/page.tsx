@@ -78,11 +78,11 @@ export default function AboutMe() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
               <div className="p-4 rounded-lg bg-white shadow hover:shadow-md transition">
                 <h4 className="font-semibold text-blue-700">🎓 Education</h4>
-                <p>Universitas Atma Jaya Yogyakarta <br /> Information Systems (2021–Present)</p>
+                <p>Universitas Atma Jaya Yogyakarta <br /> Information Systems (2022-present)</p>
               </div>
               <div className="p-4 rounded-lg bg-white shadow hover:shadow-md transition">
                 <h4 className="font-semibold text-blue-700">💻 Skills</h4>
-                <p>React.js, Next.js, Tailwind CSS, UI/UX Design, TypeScript</p>
+                <p>React.js, Next.js, Tailwind CSS, UI/UX Design, TypeScript, Front-End Development, Back-End Development, Data Analysis.</p>
               </div>
             </div>
           </div>
