@@ -65,7 +65,7 @@ export default function AboutMe() {
               About Me
             </h2>
             <p className="text-lg leading-relaxed">
-              Hello! My name is <strong>Frengky Wongan</strong>, 
+              Hello! My name is <strong>Frengky Lois Wongan</strong>, 
               I am a creative and solution-oriented individual with a strong passion for technology, design, and innovation. 
               With a background in both web development and UI/UX design, I enjoy crafting digital experiences that are not only functional but also visually engaging and user-friendly.
               <br /><br />
