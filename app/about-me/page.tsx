@@ -82,7 +82,7 @@ export default function AboutMe() {
               </div>
               <div className="p-4 rounded-lg bg-white shadow hover:shadow-md transition">
                 <h4 className="font-semibold text-blue-700">💻 Skills</h4>
-                <p>React.js, Next.js, Tailwind CSS, UI/UX Design, TypeScript, Front-End Development, Back-End Development, Data Analysis.</p>
+                <p>React.js, Next.js, Tailwind CSS, UI/UX Design, TypeScript, Front-End Development, Back-End Development, Data Analysis, Microsoft Word, Microsoft Excel.</p>
               </div>
             </div>
           </div>
